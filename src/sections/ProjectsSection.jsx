@@ -1,7 +1,7 @@
 import { ArrowUpRight } from "lucide-react"
 
-import { TextAnimate } from "@/components/ui/text-animate"
-import { ProjectCard } from "@/components/ui/project-card"
+import { TextAnimate } from "@/components/ui/TextAnimate"
+import { ProjectCard } from "@/components/ui/ProjectCard"
 
 export const ProjectsSection = ({ projects }) => {
   return (

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import { Github, Home, Linkedin, Mail } from "lucide-react"
 
-import { Dock, DockIcon } from "@/components/ui/dock"
+import { Dock, DockIcon } from "@/components/ui/Dock"
 import { navItems } from "@/data/navigation"
 import {
   aboutHighlights,

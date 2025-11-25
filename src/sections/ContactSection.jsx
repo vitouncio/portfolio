@@ -1,8 +1,8 @@
 import { Mail } from "lucide-react"
 
-import { LightRays } from "@/components/ui/light-rays"
-import { RippleButton } from "@/components/ui/ripple-button"
-import { TextAnimate } from "@/components/ui/text-animate"
+import { LightRays } from "@/components/ui/LightRays"
+import { RippleButton } from "@/components/ui/RippleButton"
+import { TextAnimate } from "@/components/ui/TextAnimate"
 
 export const ContactSection = () => {
   return (

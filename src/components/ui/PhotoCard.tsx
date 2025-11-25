@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils"
-import eu from "@/assets/eu.jpeg"
+import eu from "@/assets/about/eu.jpeg"
 
 interface PhotoCardStat {
   label: string

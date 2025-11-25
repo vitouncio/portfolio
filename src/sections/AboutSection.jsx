@@ -1,5 +1,5 @@
-import { PhotoCard } from "@/components/ui/photo-card"
-import { TextAnimate } from "@/components/ui/text-animate"
+import { PhotoCard } from "@/components/ui/PhotoCard"
+import { TextAnimate } from "@/components/ui/TextAnimate"
 
 export const AboutSection = ({ highlights }) => {
   return (

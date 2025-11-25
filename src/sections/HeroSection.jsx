@@ -1,8 +1,9 @@
 import { ArrowUpRight, Download } from "lucide-react"
+import { CvDropdownButton } from "@/components/ui/CvDropdownButton"
 
-import { LightRays } from "@/components/ui/light-rays"
-import { RippleButton } from "@/components/ui/ripple-button"
-import { TextAnimate } from "@/components/ui/text-animate"
+import { LightRays } from "@/components/ui/LightRays"
+import { RippleButton } from "@/components/ui/RippleButton"
+import { TextAnimate } from "@/components/ui/TextAnimate"
 
 export const HeroSection = ({ capabilities }) => {
   return (
@@ -35,12 +36,7 @@ export const HeroSection = ({ capabilities }) => {
           >
             Ver projetos <ArrowUpRight className="size-4" />
           </RippleButton>
-          <RippleButton
-            className="flex items-center gap-2 rounded-full border-white/20 bg-transparent px-7 py-3 text-sm font-medium text-foreground/80 backdrop-blur transition hover:border-white/40 hover:text-foreground"
-            rippleColor="rgba(255,255,255,0.25)"
-          >
-            Baixar CV <Download className="size-4" />
-          </RippleButton>
+          <CvDropdownButton />
         </div>
       </div>
 

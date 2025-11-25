@@ -1,6 +1,6 @@
 import { Sparkle } from "lucide-react"
 
-import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler"
+import { AnimatedThemeToggler } from "@/components/ui/AnimatedThemeToggler"
 
 export const SiteHeader = ({ navItems }) => {
   return (
