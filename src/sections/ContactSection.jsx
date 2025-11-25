@@ -1,5 +1,5 @@
 import { Mail } from "lucide-react"
-
+import wppsvg from "@/assets/logos/whatsapp-svgrepo-com.svg"
 import { LightRays } from "@/components/ui/LightRays"
 import { RippleButton } from "@/components/ui/RippleButton"
 import { TextAnimate } from "@/components/ui/TextAnimate"
@@ -21,12 +21,36 @@ export const ContactSection = () => {
       <p className="mx-auto mt-4 max-w-2xl text-base text-muted-foreground">
         Envie uma mensagem e vamos construir juntos a próxima experiência que o seu público não vai esquecer.
       </p>
-      <RippleButton
-        className="mx-auto mt-8 flex items-center gap-2 rounded-full border-transparent bg-primary px-8 py-3 text-sm font-medium text-primary-foreground"
-        rippleColor="rgba(15,15,30,0.35)"
-      >
-        Conversar agora <Mail className="size-4" />
-      </RippleButton>
+      <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-3 mt-8">
+        <a
+          href="mailto:vpereira.dev@gmail.com"
+          className="inline-block"
+          tabIndex={-1}
+        >
+          <RippleButton
+            className="flex items-center gap-2 rounded-full border-transparent bg-primary px-8 py-3 text-sm font-medium text-primary-foreground"
+            rippleColor="rgba(15,15,30,0.35)"
+          >
+            Conversar agora <Mail className="size-4" />
+          </RippleButton>
+        </a>
+        <span className="mx-2 text-base font-semibold text-foreground/40">ou</span>
+        <a
+          href="https://wa.me/5531971012450?text=Ol%C3%A1!%20%F0%9F%91%8B%F0%9F%8F%BD%0AVim%20atrav%C3%A9s%20do%20seu%20portf%C3%B3lio."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block"
+          tabIndex={-1}
+        >
+          <RippleButton
+            className="flex items-center gap-2 rounded-full border-transparent bg-primary px-8 py-3 text-sm font-medium text-primary-foreground"
+            rippleColor="rgba(15,15,30,0.35)"
+          >
+            Envie uma mensagem
+            <img src={wppsvg} alt="WhatsApp" className="size-4" />
+          </RippleButton>
+        </a>
+      </div>
     </section>
   )
 }
