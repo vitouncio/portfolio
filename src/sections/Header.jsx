@@ -7,7 +7,7 @@ export const SiteHeader = ({ navItems }) => {
     <header className="flex flex-wrap items-center justify-between gap-6">
       <div className="flex items-center gap-3 text-sm uppercase tracking-[0.35em] text-muted-foreground">
         <Sparkle className="size-4" />
-        <span>vitor's portfolio</span>
+        <span>portfólio - vitor pereira</span>
       </div>
       <nav className="flex flex-wrap items-center gap-8 text-sm text-muted-foreground">
         {navItems.map((item) => (
