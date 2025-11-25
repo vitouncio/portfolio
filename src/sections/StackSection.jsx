@@ -1,20 +1,33 @@
 import { LightRays } from "@/components/ui/light-rays"
 import { OrbitingCircles } from "@/components/ui/orbiting-circles"
 import { TextAnimate } from "@/components/ui/text-animate"
+import docker from "@/assets/logos/docker-icon-svgrepo-com.svg"
+import express from "@/assets/logos/express-svgrepo-com.svg"
+import git from "@/assets/logos/git-svgrepo-com.svg"
+import java from "@/assets/logos/java-svgrepo-com.svg"
+import mysql from "@/assets/logos/mysql-svgrepo-com.svg"
+import nextjs from "@/assets/logos/next-dot-js-svgrepo-com.svg"
+import nodejs from "@/assets/logos/node-svgrepo-com.svg"
+import python from "@/assets/logos/python-svgrepo-com.svg"
+import react from "@/assets/logos/react-svgrepo-com.svg"
+import spring from "@/assets/logos/spring-icon-svgrepo-com.svg"
+import tailwind from "@/assets/logos/tailwind-svgrepo-com.svg"
+import vite from "@/assets/logos/vite-svg.svg"
+
 
 const orbitLogos = [
-  { src: "/logos/docker-icon-svgrepo-com.svg", alt: "Docker" },
-  { src: "/logos/git-svgrepo-com.svg", alt: "Git" },
-  { src: "/logos/java-svgrepo-com.svg", alt: "Java" },
-  { src: "/logos/mysql-svgrepo-com.svg", alt: "MySQL" },
-  { src: "/logos/next-dot-js-svgrepo-com.svg", alt: "Next.js" },
-  { src: "/logos/node-svgrepo-com.svg", alt: "Node.js" },
-  { src: "/logos/python-svgrepo-com.svg", alt: "Python" },
-  { src: "/logos/react-svgrepo-com.svg", alt: "React" },
-  { src: "/logos/spring-icon-svgrepo-com.svg", alt: "Spring" },
-  { src: "/logos/tailwind-svgrepo-com.svg", alt: "Tailwind CSS" },
-  { src: "/logos/vite-svg.svg", alt: "Vite" },
-  {src: "/logos/express-svgrepo-com.svg", alt: "Express"},
+  { src: docker, alt: "Docker" },
+  { src: git, alt: "Git" },
+  { src: java, alt: "Java" },
+  { src: mysql, alt: "MySQL" },
+  { src: nextjs, alt: "Next.js" },
+  { src: nodejs, alt: "Node.js" },
+  { src: python, alt: "Python" },
+  { src: react, alt: "React" },
+  { src: spring, alt: "Spring" },
+  { src: tailwind, alt: "Tailwind CSS" },
+  { src: vite, alt: "Vite" },
+  {src: express, alt: "Express"},
 ]
 
 const halfOrbitIndex = Math.ceil(orbitLogos.length / 2)

@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils"
+import eu from "@/assets/eu.jpeg"
 
 interface PhotoCardStat {
   label: string
@@ -18,7 +19,7 @@ interface PhotoCardProps {
 
 export const PhotoCard = ({
   className,
-  imageUrl = "/eu.jpeg",
+  imageUrl = eu,
   name = "Seu Nome",
   role = "Product Designer & Front-end",
   location = "São Paulo · Brasil",
